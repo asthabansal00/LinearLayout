@@ -4,57 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOME  :)"
-        android:textSize="40sp"
         android:layout_margin="40dp"
+        android:text="WELCOME  :)"
         android:textColor="@color/pink"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="NAME"
-        android:textSize="25sp"
-        />
+        android:textSize="25sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your name"
         android:layout_gravity="center"
-        />
+        android:hint="Enter your name" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="COLLEGE NAME"
-        android:textSize="25sp"/>
+        android:textSize="25sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your college name"
-        />
+        android:hint="Enter your college name" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="PHONE NUMBER"
-        android:textSize="25sp"/>
+        android:textSize="25sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your phone number"
-        />
+        android:hint="Enter your phone number" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="next>"
-        android:backgroundTint="@color/pink"/>
-"/>
+        android:backgroundTint="@color/pink"
+        android:hint="next>" />
+    "/>
 </LinearLayout>
